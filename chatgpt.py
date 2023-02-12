@@ -12,6 +12,6 @@ while True:
     completation = openai.Completion.create(engine="text-davinci-003",
                             prompt=prompt,
                             n=1,
-                            max_tokens=2048)
+                            max_tokens=4096)
 
     print(completation.choices[0].text)
