@@ -8,6 +8,4 @@ dist/*
 package.json
 respaldo/*
 
-!.env.example
-
 __pycache__/
